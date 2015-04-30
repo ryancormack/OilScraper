@@ -1,0 +1,29 @@
+﻿USE [OilScraper]
+GO
+
+/****** Object:  Table [dbo].[OilScraper]    Script Date: 04/30/2015 13:53:43 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[OilScraper](
+	[Id] [INT] NOT NULL,
+	[InsertedDate] [VARCHAR](MAX) NOT NULL,
+	[RigName] [VARCHAR](MAX) NOT NULL,
+	[Manager] [VARCHAR](MAX) NOT NULL,
+	[RigType] [VARCHAR](MAX) NOT NULL,
+	[RatedWaterDepth] [VARCHAR](MAX) NOT NULL,
+	[DrillingDepth] [VARCHAR](MAX) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
